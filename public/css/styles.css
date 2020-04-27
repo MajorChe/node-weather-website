@@ -1,0 +1,51 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+h1{
+    color:black;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.wrapper{
+    margin-left: 250px;
+}
+.main-content {
+    flex-grow: 1;
+    margin-left: 250px;
+}
+
+a{
+    padding-right: 15px;
+    text-decoration: none;
+    color:grey;
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+    margin-top: 50px;
+}
+img.image{
+    width: 250px;
+    margin-top: 45px;
+}
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin: 0px 250px;
+   
+}
+input{
+    border: 2px solid grey;
+    padding: 8px;
+}
+button{
+    background: grey;
+    border: 2px solid grey;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
