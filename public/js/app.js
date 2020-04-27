@@ -1,5 +1,5 @@
 console.log('Javascript file is laoded!')
-
+//comment added
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const locationdata = document.querySelector('#locationData')
