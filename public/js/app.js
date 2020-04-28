@@ -15,7 +15,8 @@ weatherForm.addEventListener('submit',(e)=>{
         if (data.error) {
             document.querySelector('#locationData').innerHTML = 'Error'
             document.querySelector('#weatherData').innerHTML = data.error
-        }else{
+        }
+        else{
             //console.log(data)
             locationdata.textContent = 'Location: '+data.location
             weatherData.innerHTML = 'Forecast: '+data.forecast
